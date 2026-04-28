@@ -8366,31 +8366,3 @@ function wsHandleSubscribe() {
 </div>
 </body>
 </html>
-  /* ── NEWSLETTER SUBSCRIBE ─────────────────────────────────────────── */
-  .ws-tag { transition: all .2s; }
-  .ws-tag.ws-active { }
-  #wsSubName, #wsSubEmail { border-radius:0; }
-  #wsSubName::placeholder, #wsSubEmail::placeholder { color:var(--text3); }
-  [data-theme="light"] #wsSubName,
-  [data-theme="light"] #wsSubEmail { background:var(--bg2) !important; color:var(--text) !important; }
-  [data-theme="light"] #newsletterSection { background:linear-gradient(135deg,#f0f4f8 0%,#e8edf2 100%) !important; }
-  [data-theme="light"] #wsSubSuccess { background:rgba(0,135,90,0.07) !important; }
-
-  /* ── FOOTER LINK CLASS ────────────────────────────────────────────── */
-  .ft-link {
-    font-family:var(--mono);
-    font-size:10px;
-    color:var(--text3);
-    letter-spacing:1.5px;
-    cursor:pointer;
-    text-decoration:none;
-    text-transform:uppercase;
-    transition:color .2s;
-    display:block;
-    padding:2px 0;
-  }
-  .ft-link:hover { color:var(--cyan); }
-  [data-theme="light"] .ft-link { color:var(--text3); }
-  [data-theme="light"] .ft-link:hover { color:var(--cyan); }
-  [data-theme="light"] footer { background:var(--panel) !important; }
-
